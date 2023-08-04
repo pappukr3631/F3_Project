@@ -1,1 +1,83 @@
 /* Write styles here */
+* {
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    width: 100%;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: black;
+    padding: 10px;
+    font-size: 24px;
+}
+
+#right {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: 300;
+}
+
+#left {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#h1{
+    font-size: 80px;
+    font-weight: 400;
+}
+a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+#login{
+    height: 3rem;
+    width: 12rem;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: black;
+}
+
+#signUp{
+    padding: 0.2rem 0.4rem;
+    height: 3rem;
+    width: 12rem;
+    cursor: pointer;
+    border: 2px solid black;
+    font-size: 20px;
+}
+#landingImg{
+    width: 80%;
+    /* padding-top: 12vh; */
+}
+section{
+    padding-left: 2%;
+}
+.button {
+    display: flex;
+    padding-top: 20px;
+}
+button {
+    margin-right: 20px;
+}
+
+.section-img {
+    display: flex;
+    /* flex-direction: column; */
+}
+#h5{
+    font-size: 13px;
+}

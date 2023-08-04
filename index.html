@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>MeShop.</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>MeShop</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav id="navbar">
+    <div id="left">
+      <h1>MeShop.</h1>
+    </div>
+    <div id="right">
+      <a href="../index.html">Home</a>
+      <a href="./login/">Login</a>
+      <a href="./signUp/">signUp</a>
+      <a id="navigateToCart" href="#">My Cart</a>
+      <a id="navigateToProfile" href="#">Profile</a>
+    </div>
+  </nav>
+
+  <section>
+    <div class="section-text">
+        <h1 id="h1">MeShop.</h1>
+        <h2>Your First Shop built on HTML,CSS AND Javascript</h2>      
+    </div>
+    <div class="section-img">
+      <div class="button">
+        <button id="login">
+          <a href="./login/index.html">Login</a>
+        </button>
+        <button id="signUp">
+          <a style="color: black" href="./signUp/index.html">Signup</a>
+        </button>
+      </div>
+      <div>
+        <img id="landingImg" src="img/undraw_web_shopping_re_owap 1.svg"/>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
 </html>
